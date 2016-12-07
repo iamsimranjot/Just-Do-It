@@ -7,5 +7,6 @@ target 'Just Do It' do
 
   # Pods for Just Do It
   pod 'BEMCheckBox'
+  pod 'SnapKit'
 
 end

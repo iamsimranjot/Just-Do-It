@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'BC19A72FB7D1DB0B2CC5F6C5CF2400F4'
-               BlueprintName = 'BEMCheckBox'
+               BlueprintIdentifier = '835E144A5BE01D0640C80703CFF78C7F'
+               BlueprintName = 'SnapKit'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'BEMCheckBox.framework'>
+               BuildableName = 'SnapKit.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
