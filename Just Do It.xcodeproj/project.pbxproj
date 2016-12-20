@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700D86D71E03B2FD0057ABD1 /* StartPlayingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700D86D61E03B2FD0057ABD1 /* StartPlayingVC.swift */; };
+		700D86D91E03B37A0057ABD1 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 700D86D81E03B37A0057ABD1 /* AppConstants.swift */; };
 		70A937B21DF871E3005BD6A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A937B11DF871E3005BD6A6 /* AppDelegate.swift */; };
 		70A937B71DF871E3005BD6A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A937B51DF871E3005BD6A6 /* Main.storyboard */; };
 		70A937B91DF871E3005BD6A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A937B81DF871E3005BD6A6 /* Assets.xcassets */; };
 		70A937BC1DF871E3005BD6A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A937BA1DF871E3005BD6A6 /* LaunchScreen.storyboard */; };
+		70A937C41DF87AFC005BD6A6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A937C31DF87AFC005BD6A6 /* MainViewController.swift */; };
 		F43321B3A7295A952D5E09FD /* Pods_Just_Do_It.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB5214407A8FD7A9B7BD645 /* Pods_Just_Do_It.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1601A4770F978392E97AF32A /* Pods-Just Do It.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Just Do It.release.xcconfig"; path = "Pods/Target Support Files/Pods-Just Do It/Pods-Just Do It.release.xcconfig"; sourceTree = "<group>"; };
 		4BB5214407A8FD7A9B7BD645 /* Pods_Just_Do_It.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Just_Do_It.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700D86D61E03B2FD0057ABD1 /* StartPlayingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartPlayingVC.swift; sourceTree = "<group>"; };
+		700D86D81E03B37A0057ABD1 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		70A937AE1DF871E3005BD6A6 /* Just Do It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Just Do It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A937B11DF871E3005BD6A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A937B61DF871E3005BD6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A937B81DF871E3005BD6A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A937BB1DF871E3005BD6A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A937BD1DF871E3005BD6A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A937C31DF87AFC005BD6A6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		D13BB1F4A705BF4313BD2BA8 /* Pods-Just Do It.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Just Do It.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Just Do It/Pods-Just Do It.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,12 +74,23 @@
 			isa = PBXGroup;
 			children = (
 				70A937B11DF871E3005BD6A6 /* AppDelegate.swift */,
+				70A937C31DF87AFC005BD6A6 /* MainViewController.swift */,
+				700D86D61E03B2FD0057ABD1 /* StartPlayingVC.swift */,
 				70A937B51DF871E3005BD6A6 /* Main.storyboard */,
+				70A937C51DF87B03005BD6A6 /* Utilities */,
+			);
+			path = "Just Do It";
+			sourceTree = "<group>";
+		};
+		70A937C51DF87B03005BD6A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				700D86D81E03B37A0057ABD1 /* AppConstants.swift */,
 				70A937B81DF871E3005BD6A6 /* Assets.xcassets */,
 				70A937BA1DF871E3005BD6A6 /* LaunchScreen.storyboard */,
 				70A937BD1DF871E3005BD6A6 /* Info.plist */,
 			);
-			path = "Just Do It";
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		7B8F68C75091FAF6C96E10DC /* Pods */ = {
@@ -209,6 +226,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				70A937B21DF871E3005BD6A6 /* AppDelegate.swift in Sources */,
+				700D86D71E03B2FD0057ABD1 /* StartPlayingVC.swift in Sources */,
+				70A937C41DF87AFC005BD6A6 /* MainViewController.swift in Sources */,
+				700D86D91E03B37A0057ABD1 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
